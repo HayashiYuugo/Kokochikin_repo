@@ -1,0 +1,59 @@
+@charset "UTF-8";
+*{
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style-type: none;
+    list-style-position: outside;
+}
+div{
+    box-sizing: border-box;
+}
+#wrapper{
+    width:100%;
+    display:flex;
+}
+#left_box{
+    width:15%;
+    padding:15px;
+    background-color:#F5ECCE;
+}
+#right_box{
+    width:85%;
+    height:100vh;
+}
+.globalmenu{
+    margin-top:20px;
+}
+.globalmenu ul li{
+    margin-bottom:50px;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+/* accordionのstyle */
+.accordion .shutter-panel-collapse {
+    display:none;
+}
+.accordion .panel-heading {
+    margin-bottom:20px;
+    display:block;
+    color:black;
+}
+.accordion .shutter-panel-collapse {
+    margin-left:20px;
+}
+.accordion .shutter-panel-collapse li{
+    margin-left:16px;
+    margin-bottom:24px;
+}
+.accordion .shutter-panel-collapse li a{
+    color:black;
+    cursor: hand;
+}
+.accordion .shutter-panel-collapse li a:hover{
+    color:orange;
+}
+
